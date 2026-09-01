@@ -1,0 +1,9 @@
+query,expected_in_scope,expected_intent,expected_output,expected_keyword
+"모터에서 심한 진동과 금속성 소음이 발생합니다. 점검 체크리스트를 만들어 주세요.",True,maintenance_request,maintenance_checklist,진동
+"베어링 그리스는 어떻게 보충해야 하나요?",True,manual_query,manual_answer,그리스
+"모터가 과열됩니다. 작업지시서를 작성해 주세요.",True,maintenance_request,work_order,과열
+"모터가 과열됩니다. 점검표와 작업지시서를 작성해 주세요.",True,maintenance_request,maintenance_checklist;work_order,과열
+"전동기 축 정렬 상태를 점검해 주세요.",True,manual_query,manual_answer,정렬
+"모터 기동이 잘 안 됩니다. 원인을 확인해 주세요.",True,manual_query,manual_answer,기동
+"모터에서 알 수 없는 액체가 새는데 어떤 부품을 교체해야 하나요?",True,manual_query,manual_answer,점검
+"오늘 서울 날씨는 어떤가요?",False,out_of_scope,none,날씨
